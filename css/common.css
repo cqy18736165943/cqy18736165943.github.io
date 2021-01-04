@@ -1,0 +1,152 @@
+/* css reset */
+body,ol,ul,h1,h2,h3,h4,h5,h6,p,th,td,dl,dd,form,fieldset,legend,input,textarea,select{
+    margin: 0;
+    padding: 0;
+}
+body,html{
+    font: 14px "微软雅黑",Arial;
+    background: #fff;
+}
+h1,h2,h3,h4,h5,h6,b,strong{
+    font-weight: normal; /* 取消默认的加粗样式 */
+    font-size: 100%;
+}
+i,em{
+    font-style: normal;/* 取消默认的倾斜样式 */
+}
+li{
+    list-style: none;/* 取消默认的项目符号样式 */
+}
+a{
+    color: #333333;
+    text-decoration: none; /* 取消默认的下划线样式 */
+}
+input{
+    outline: none; /* 取消默认的选中焦点框样式 */
+}
+img{
+    vertical-align: middle;
+}
+.clearfix{
+     *zoom: 1;/* 解决IE7以下版本的塌陷问题 */
+}
+.clearfix::after{
+    content: ' ';
+    display: block;
+    height: 0;
+    overflow: hidden;
+    clear: both;
+}
+.mb50{
+    margin-bottom: 50px;
+}
+/* 头部公共样式 */
+/* li{
+    list-style: none;
+} */
+#header{
+    height: 40px;
+    background-color:#262626;
+}
+.header_inner{
+    width: 1180px;
+    height: 40px;
+    margin: 0 auto;
+}
+.header_inner ul{
+    float: left;
+}
+.header_inner ul li{
+    display: inline-block;
+    line-height: 40px;
+}
+.header_inner a{
+    color: #bfbfbf;
+    font-size: 12px;
+}
+.inner_left ul li{
+    padding-right: 20px;
+}
+.inner_center{
+    float: right;
+}
+.inner_center ul li {
+    padding-right: 15px;
+    position: relative;
+}
+.inner_right{
+    width: 124px;
+    float: right;
+    line-height: 40px;
+    background: #343434;
+}
+.inner_right{
+    text-align: center;
+}
+#header .header_inner a:hover{
+    color: #ffffff;
+}
+.inner_center li .down{
+    width: 150px;
+    box-shadow: 0 0 5px 0 rgba(0,0,0,0.15);
+    position: absolute;
+    top: 42px;
+    left: -53px;
+    text-align: center;
+    display: none;
+    z-index: 999;
+}
+.inner_center li .down img{
+    width: 136px;
+    height: 158px;
+}
+.inner_center li .down p{
+    width: 0;
+    height: 0;
+    border: 3px solid;
+    border-color: transparent transparent #ffffff;
+    position: relative;
+    left: 50%;
+    top: -8px;
+}
+.inner_center li a.phone:hover .down{
+    display: block;
+    z-index: 999;
+}
+#nav{
+    height: 80px;
+}
+.nav_inner{
+    width: 1180px;
+    height: 80px;
+    margin: 0 auto;
+    line-height: 80px;
+}
+.nav_center{
+    float:right;
+}
+.nav_center ul li{
+    float: left;
+}
+.nav_inner a span img{
+    width: 42px;
+    height: 36px;
+    padding-bottom: 12px;
+}
+.nav_inner a span.logo{
+    font-size: 28px;
+    color: #262626;
+    margin-left: 6px;
+}
+.nav_center li a{
+    font-size: 16px;
+}
+.nav_center ul{
+    margin-right: 176px;
+}
+.nav_center li{
+    margin-left: 50px;
+}
+.nav_center li a:hover{
+    color: rgb(243, 95, 95);
+}

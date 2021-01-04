@@ -1,0 +1,257 @@
+/* 轮播图 */
+#banner{
+    width: 100%;
+    height: 450px;
+    overflow: hidden;
+}
+/* .swiper-container{
+    width: 100%;
+    height: 450px;
+} */
+.swiper-container,
+.swiper-wrapper,
+.swiper-slide,
+.swiper-slide img{  
+    width: 100%;
+    height: 100%;
+}
+.swiper-container-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet {
+    width: 16px;
+    height: 6px;
+    border-radius: 25%;
+}
+.swiper-pagination-bullet-active {
+    background-color: #fc4a4a;
+}
+.swiper-button-prev, .swiper-container-rtl .swiper-button-next {
+    background-size: 30px  30px;
+    left: 42px;
+    right: auto;
+    background-color: black;
+    opacity: 0.3;
+    width:50px;
+    height: 70px;
+  }
+
+  .swiper-button-next, .swiper-container-rtl .swiper-button-prev {
+    right: 42px;
+    background-size: 30px  30px;
+    left: auto;
+    background-color: black;
+    opacity: 0.1;
+    width:50px;
+    height: 70px;
+  }
+  #main{
+      width: 100%;
+      background-color: #f5f5f5;
+  }
+  .main_inner{
+    width: 1180px;
+    margin: 0 auto;
+  }
+  .main_inner1{
+      width: 1180px;
+      height: 460px;
+  }
+  .main_inner1 p{
+      font-size: 24px;
+      line-height: 90px;
+  }
+  .main_inner1 p span{
+      font-size: 16px;
+      margin-left: 20px;
+      color: #8c8c8c;
+  }
+  .inner1_left{
+      width: 580px;
+      height: 370px;
+      float: left;
+  }
+  .inner1_right{
+      width: 580px;
+      height: 370px;
+      float: right;
+  }
+  .main_inner2{
+    width: 1180px;
+    height: 640px;
+}
+.main_inner2 p{
+    font-size: 24px;
+    line-height: 90px;
+}
+.main_inner2 p span{
+    font-size: 16px;
+    margin-left: 20px;
+    color: #8c8c8c;
+}
+.main_inner2 p a{
+    font-size: 16px;
+    color: #8c8c8c;
+    float: right;
+}
+.main_inner2 p a:hover{
+    color: #fc4a4a;
+}
+.inner2_left ul{
+    width: 100%;
+    height: 370px;
+}
+.inner2_left ul li{
+    float: left;
+    width: 280px;
+    margin-right: 20px;
+}
+.inner2_left ul li a img{
+    width: 280px;
+    height: 370px;
+}
+.inner2_left a img{
+    width: 1180px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.inner2_left ul .main_li{
+    margin-right: -20px;
+}
+.main_inner3{
+    width: 1180px;
+    height: 490px;
+}
+.main_inner3 p{
+    font-size: 24px;
+    line-height: 90px;
+    margin-top: 30px;
+}
+.main_inner3 p span{
+    font-size: 16px;
+    margin-left: 20px;
+    color: #8c8c8c;
+}
+.main_inner3 .inner3_left{
+    width: 1180px;
+    height: 400px;
+}
+.main_inner4{
+    width: 1180px;
+    height: 640px;
+}
+.main_inner4 p{
+    font-size: 24px;
+    line-height: 90px;
+}
+.main_inner4 p span{
+    font-size: 16px;
+    margin-left: 20px;
+    color: #8c8c8c;
+}
+.main_inner4 p a{
+    font-size: 16px;
+    color: #8c8c8c;
+    float: right;
+}
+.main_inner4 p a:hover{
+    color: #fc4a4a;
+}
+.inner4_left ul{
+    width: 100%;
+    height: 370px;
+}
+.inner4_left ul li{
+    float: left;
+    width: 280px;
+    margin-right: 20px;
+}
+.inner4_left ul li a img{
+    width: 280px;
+    height: 370px;
+}
+.inner4_left a img{
+    width: 1180px;
+    height: 160px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+.inner4_left ul .main_li1{
+    margin-right: -20px;
+}
+.main_inner5{
+    width: 1180px;
+    height: 405px;
+}
+.main_inner5 p{
+    font-size: 24px;
+    line-height: 90px;
+    margin-top: 20px;
+}
+.main_inner5 p span{
+    font-size: 16px;
+    margin-left: 20px;
+    color: #8c8c8c;
+}
+.inner5_left ul{
+    width: 100%;
+    height: 370px;
+}
+.inner5_left ul li{
+    float: left;
+    width: 280px;
+    margin-right: 20px;
+}
+.inner5_left ul li a img{
+    width: 288px;
+    height: 277px;
+}
+.inner5_left ul .main_li2{
+    margin-right: -25px;
+}
+/* 右侧导航 */
+#list{
+    position: fixed;
+    right: 0;
+    top: 250px;
+    width: 80px;
+    z-index: 99;
+    /* height: 250px; */
+  }
+.box{
+    height: 80px; 
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #ffffff;
+    text-align: center;
+
+}
+.box p{
+    text-align: center;
+    font-size: 14px;
+}
+.box .ing {
+    font-size: 43px;
+}
+.box .ing:hover{
+    color: #fc4a4a;
+}
+.box .ing1 {
+    font-size: 43px;
+    color: #fc4a4a;
+}
+.back{
+    position: fixed;
+    right: 0;
+    top: 510px;
+    width: 80px;
+    z-index: 99;
+    height: 80px; 
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #ffffff;
+    text-align: center;
+    display: none;
+}
+.back .ing2{
+    font-size: 43px;
+}
+.back:hover{
+    color: #fc4a4a;
+}

@@ -1,0 +1,146 @@
+/* 商品详情 */
+#shop{
+    width: 100%;
+    border-top: 1px solid #e8e8e8;
+}
+.shop_inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+.shop_top{
+    line-height: 50px;
+}
+.shop_inner span{
+    color: #8c8c8c;
+}
+.shop_inner a:hover{
+    color: #f77168;
+}
+.shop_left {
+    width: 500px;
+    border: 1px solid #e8e8e8;
+    margin-right: 60px;
+    float: left;
+    position: relative;
+}
+.shop_left .zuo{
+    position: absolute;
+    left: 0;
+    bottom: -100px;
+    padding: 30px 5px;
+    border: 1px solid #d9d9d9;
+    font-size: 20px;
+}
+.shop_left .you{
+    position: absolute;
+    right: 0;
+    bottom: -100px;
+    font-size: 20px;
+    border: 1px solid #d9d9d9;
+    padding: 30px 5px;
+
+}
+.shop_left a img{
+    width: 499px;
+    height: 499px;
+}
+.shop_right{
+    width: 555px;
+    display: inline-block;
+}
+.shop_right h2{
+    font-size: 28px;
+    color: #262626;
+    line-height: 51px;
+}
+.shop_right .price{
+    line-height: 45px;
+    margin-top: 12px;
+}
+.shop_right .price p{
+    display: inline-block;
+    color: #f77168;
+    font-size: 22px;
+}
+.shop_right .price span{
+    width: 44px;
+    height: 22px;
+    background-color: #f77168;
+    border: #ffffff solid 1px;
+    line-height: 44px;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 5px 10px;
+}
+.shop_right .color{
+    line-height: 92px;
+    font-size: 16px;
+    color: #262626;
+}
+.shop_right .color_s{
+    height: 23px;
+}
+.shop_right .color_s span{
+    width: 190px;
+    height: 50px;
+    border: 1px solid #f77168;
+    margin-right: 10px;
+    text-align: center;
+    padding: 10px 76px;
+}
+.shop_right .fw{
+    line-height: 100px;
+    font-size: 16px;
+    color: #262626;
+}
+.shop_right .fw_s span{
+    width: 190px;
+    height: 50px;
+    border: 1px solid #f77168;
+    margin-right: 10px;
+    text-align: center;
+    padding: 10px 46px;
+}
+.shop_right .number{
+    line-height: 100px;
+    font-size: 16px;
+    color: #d9d9d9;
+}
+.shop_right .number_s span{
+    width: 190px;
+    height: 50px;
+    border: 1px solid #d9d9d9;
+    /* margin-right: 10px; */
+    text-align: center;
+    padding: 10px 15px;
+}
+.shop_right .number_s b{
+    padding: 10px 25px;
+    border-top: 1px solid #d9d9d9;
+    border-bottom: 1px solid #d9d9d9;
+}
+.shop_right .car{
+    width: 190px;
+    height: 40px;
+    border: 1px solid #f77168;
+    margin-right: 10px;
+    text-align: center;
+    margin-top: 30px;
+    float: left;
+    font-size: 22px;
+    color: #f77168;
+    padding-top: 10px;
+}
+.shop_right .buy{
+    width: 190px;
+    height: 40px;
+    border: 1px solid #f77168;
+    margin-right: 10px;
+    text-align: center;
+    float: left;
+    padding-top: 10px;
+    margin-top: 30px;
+    color: #ffffff;
+    font-size: 22px;
+    background-color: #f77168;
+}
