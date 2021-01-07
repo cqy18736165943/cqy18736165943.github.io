@@ -52,6 +52,7 @@
     font-size: 28px;
     color: #262626;
     line-height: 51px;
+    margin-top: -50px;
 }
 .shop_right .price{
     line-height: 45px;
@@ -83,10 +84,14 @@
 .shop_right .color_s span{
     width: 190px;
     height: 50px;
-    border: 1px solid #f77168;
+    border: 1px solid #8c8c8c;
     margin-right: 10px;
     text-align: center;
     padding: 10px 76px;
+    color: #262626;
+}
+.shop_right .color_s span:hover{
+    border: 1px solid #262626;
 }
 .shop_right .fw{
     line-height: 100px;
@@ -96,15 +101,19 @@
 .shop_right .fw_s span{
     width: 190px;
     height: 50px;
-    border: 1px solid #f77168;
+    border: 1px solid #8c8c8c;
     margin-right: 10px;
     text-align: center;
     padding: 10px 46px;
+    color: #262626;
+}
+.shop_right .fw_s span:hover{
+    border: 1px solid #262626;
 }
 .shop_right .number{
     line-height: 100px;
     font-size: 16px;
-    color: #d9d9d9;
+    color:#262626
 }
 .shop_right .number_s span{
     width: 190px;
@@ -143,4 +152,125 @@
     color: #ffffff;
     font-size: 22px;
     background-color: #f77168;
+}
+.main{
+    width: 100%;
+}
+.main_inner{
+    width: 1180px;
+    margin: 0 auto;
+}
+.box{
+    width: 1180px;
+    height: 50px;
+    margin-top: 80px;
+}
+.box ul li{
+    float: left;
+    font-size: 16px;
+    min-width: 160px;
+    text-align: center;
+    border: solid 1px #d9d9d9;
+    line-height: 50px;
+    border-width: 1px 0px 1px 1px;
+}
+.box .line{
+    width: 695px;
+    height: 50px;
+    line-height: 50px;
+    border: solid 1px #d9d9d9;
+}
+.content li{
+    display: none;
+}
+.content .show{
+    display: block;
+    margin-top: 20px;
+    margin-left: 45px;
+}
+.content .show_right{
+    margin-left: 0;
+}
+.box .nav li:hover{
+    color: #f77168;
+}
+.nav span{
+    color: #f77168;
+}
+.nav .current{
+    border-top: #f77168 2px solid;
+}
+.shop_left .top li{
+    display: none;
+}
+.shop_left .top .big{
+    display: block;
+}
+.list{
+    width: 460px;
+    height: 50px;
+    display: block;
+    margin-left: 35px;
+}
+.list ul li{
+    float: left;
+    margin: 10px 3px;
+}
+.list ul li:hover{
+    border: 1px solid #ea413c;
+}
+.list img{
+    width: 78px;
+    height: 86px;
+    border: 1px solid #e8e8e8;
+}
+
+
+/* 右侧导航 */
+#list{
+    position: fixed;
+    right: 0;
+    top: 250px;
+    width: 80px;
+    z-index: 99;
+    /* height: 250px; */
+  }
+.box{
+    height: 80px; 
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #ffffff;
+    text-align: center;
+
+}
+.box p{
+    text-align: center;
+    font-size: 14px;
+}
+.box .ing {
+    font-size: 43px;
+}
+.box .ing:hover{
+    color: #fc4a4a;
+}
+.box .ing1 {
+    font-size: 43px;
+    color: #fc4a4a;
+}
+.back{
+    position: fixed;
+    right: 0;
+    top: 510px;
+    width: 80px;
+    z-index: 99;
+    height: 80px; 
+    border-bottom: 1px solid #e8e8e8;
+    background-color: #ffffff;
+    text-align: center;
+    display: none;
+}
+.back .ing2{
+    font-size: 43px;
+}
+.back:hover{
+    color: #fc4a4a;
 }

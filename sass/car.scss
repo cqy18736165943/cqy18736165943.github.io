@@ -1,0 +1,240 @@
+.empty {
+    width: 100%;
+    height: 26px;
+    background-color: #f5f5f5;
+}
+.hint {
+    color: #ea413c;
+    font-size: 30px;
+    text-align: center;
+}
+#qb {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 100%;
+    .wp {
+        padding: 20px;
+        background-color: #ffff;
+        .wp_top {
+            background: #fafafa;
+            width: 1140px;
+            height: 41px;
+            line-height: 40px;
+            font-size: 14px;
+            color: #595959;
+            border: 0;
+            border-bottom: 1px solid #e8e8e8;
+            .check {
+                float: left;
+                width: 86px;
+                color: #595959;
+                text-align: center;
+                font-weight: 900;
+            }
+            .product {
+                float: left;
+                width: 518px;
+                color: #595959;
+                text-align: center;
+                font-weight: 900;
+            }
+            .unit_price {
+                float: left;
+                width: 120px;
+                color: #595959;
+                text-align: center;
+                font-weight: 900;
+            }
+            .count {
+                float: left;
+                width: 200px;
+                color: #595959;
+                text-align: center;
+                font-weight: 900;
+            }
+            .subtotal {
+                float: left;
+                width: 120px;
+                color: #595959;
+                text-align: center;
+                font-weight: 900;
+            }
+            .operation {
+                float: left;
+                width: 96px;
+                color: #595959;
+                text-align: center;
+                font-weight: 900;
+            }
+        }
+    }
+    .tbody {
+        width: 1140px;
+        .tr {
+            width: 100%;
+            height: 128px;
+            .tr_a {
+                width: 85px;
+                text-align: center;
+                float: left;
+                input {
+                    margin-top: 60px;
+                }
+            }
+            .tr_b {
+                width: 518px;
+                height: 100%;
+                float: left;
+                margin-top: 15px;
+                .ig {
+                    display: inline-block;
+                    img {
+                        width: 98px;
+                        height: 98px;
+                    }
+                }
+                .wz {
+                    display: inline-block;
+                    width: 400px;
+                    height: 32px;
+                    line-height: 32px;
+                    font-size: 16px;
+                    color: #595959;
+                    overflow: hidden;
+                    text-overflow: ellipsis;
+                    white-space: nowrap;
+                    word-break: break-all;
+                    margin-left: 10px;
+                    margin-bottom: 25px;
+                }
+            }
+            .tr_c {
+                width: 120px;
+                height: 129px;
+                line-height: 140px;
+                text-align: center;
+                float: left;
+            }
+            .tr_d {
+                float: left;
+                width: 200px;
+                height: 141px;
+                position: relative;
+                .add {
+                    position: absolute;
+                    left: 50%;
+                    top: 50%;
+                    margin-left: -60px;
+                    margin-top: -16px;
+                    .but {
+                        width: 30px;
+                        height: 30px;
+                        background-color: #fff;
+                        border: solid 1px #d9d9d9;
+                        padding: 0;
+                        float: left;
+                        display: block;
+                        font-size: 16px;
+                        color: #cccccc;
+                    }
+                    .btn {
+                        width: 30px;
+                        height: 30px;
+                        background-color: #fff;
+                        border: solid 1px #d9d9d9;
+                        padding: 0;
+                        float: left;
+                        display: block;
+                        font-size: 20px;
+                        color: #cccccc;
+                    }
+                    .ipt {
+                        display: block;
+                        float: left;
+                        width: 50px;
+                        height: 30px;
+                        line-height: 32px;
+                        text-align: center;
+                        color: #262626;
+                        border-top: 1px solid #d9d9d9;
+                        border-bottom: 1px solid #d9d9d9;
+                        border-left: none;
+                        border-right: none;
+                        font-size: 16px;
+                }
+            }
+            
+            }
+            .tr_e {
+                float: left;
+               color: #ea413c; 
+               width: 120px;
+               text-align: center;
+               height: 141px;
+               line-height: 141px;
+            }
+            .tr_f {
+                float: left;
+                width: 95px;
+                height: 140px;
+                line-height: 140px;
+                color: #8c8c8c;
+                font-size: 14px;
+                text-align: center;
+                cursor: pointer;
+            }
+        }
+    }
+    .all {
+        margin-top: 15px;
+        background: #ffffff;
+    }
+    .all {
+        
+        height: 58px;
+        line-height: 58px;
+        background-color: #ffff;
+        .all_left {
+            float: left;
+            padding-left: 40px;
+            span {
+                input {
+                    margin-right: 10px;
+                    display: inline-block;
+                }                
+            }
+            i {
+                display: inline-block;
+                width: 1px;
+                height: 24px;
+                background: #e6e6e6;
+                margin-left: 20px;
+                margin-right: 20px;
+                vertical-align: middle;
+            }
+            
+        }
+        .all_right {
+            float: right;
+            span {
+                color: #ea413c;
+                font-weight: 600;
+            }
+            a {
+                display: inline-block;
+                width: 142px;
+                background-color: #ea413c;
+                color: #fff;
+                text-align: center;
+                font-weight: 400;
+                font-size: 18px;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .blank {
+        height: 100px;
+        width: 100%;
+    }
+}

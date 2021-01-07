@@ -1,0 +1,269 @@
+.empty {
+  width: 100%;
+  height: 26px;
+  background-color: #f5f5f5;
+}
+
+.hint {
+  color: #ea413c;
+  font-size: 30px;
+  text-align: center;
+}
+
+#qb {
+  background-color: #f5f5f5;
+  width: 100%;
+  height: 100%;
+}
+
+#qb .wp {
+  padding: 20px;
+  background-color: #ffff;
+}
+
+#qb .wp .wp_top {
+  background: #fafafa;
+  width: 1140px;
+  height: 41px;
+  line-height: 40px;
+  font-size: 14px;
+  color: #595959;
+  border: 0;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+#qb .wp .wp_top .check {
+  float: left;
+  width: 86px;
+  color: #595959;
+  text-align: center;
+  font-weight: 900;
+}
+
+#qb .wp .wp_top .product {
+  float: left;
+  width: 518px;
+  color: #595959;
+  text-align: center;
+  font-weight: 900;
+}
+
+#qb .wp .wp_top .unit_price {
+  float: left;
+  width: 120px;
+  color: #595959;
+  text-align: center;
+  font-weight: 900;
+}
+
+#qb .wp .wp_top .count {
+  float: left;
+  width: 200px;
+  color: #595959;
+  text-align: center;
+  font-weight: 900;
+}
+
+#qb .wp .wp_top .subtotal {
+  float: left;
+  width: 120px;
+  color: #595959;
+  text-align: center;
+  font-weight: 900;
+}
+
+#qb .wp .wp_top .operation {
+  float: left;
+  width: 96px;
+  color: #595959;
+  text-align: center;
+  font-weight: 900;
+}
+
+#qb .tbody {
+  width: 1140px;
+}
+
+#qb .tbody .tr {
+  width: 100%;
+  height: 128px;
+}
+
+#qb .tbody .tr .tr_a {
+  width: 85px;
+  text-align: center;
+  float: left;
+}
+
+#qb .tbody .tr .tr_a input {
+  margin-top: 60px;
+}
+
+#qb .tbody .tr .tr_b {
+  width: 518px;
+  height: 100%;
+  float: left;
+  margin-top: 15px;
+}
+
+#qb .tbody .tr .tr_b .ig {
+  display: inline-block;
+}
+
+#qb .tbody .tr .tr_b .ig img {
+  width: 98px;
+  height: 98px;
+}
+
+#qb .tbody .tr .tr_b .wz {
+  display: inline-block;
+  width: 400px;
+  height: 32px;
+  line-height: 32px;
+  font-size: 16px;
+  color: #595959;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  word-break: break-all;
+  margin-left: 10px;
+  margin-bottom: 25px;
+}
+
+#qb .tbody .tr .tr_c {
+  width: 120px;
+  height: 129px;
+  line-height: 140px;
+  text-align: center;
+  float: left;
+}
+
+#qb .tbody .tr .tr_d {
+  float: left;
+  width: 200px;
+  height: 141px;
+  position: relative;
+}
+
+#qb .tbody .tr .tr_d .add {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-left: -60px;
+  margin-top: -16px;
+}
+
+#qb .tbody .tr .tr_d .add .but {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: solid 1px #d9d9d9;
+  padding: 0;
+  float: left;
+  display: block;
+  font-size: 16px;
+  color: #cccccc;
+}
+
+#qb .tbody .tr .tr_d .add .btn {
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  border: solid 1px #d9d9d9;
+  padding: 0;
+  float: left;
+  display: block;
+  font-size: 20px;
+  color: #cccccc;
+}
+
+#qb .tbody .tr .tr_d .add .ipt {
+  display: block;
+  float: left;
+  width: 50px;
+  height: 30px;
+  line-height: 32px;
+  text-align: center;
+  color: #262626;
+  border-top: 1px solid #d9d9d9;
+  border-bottom: 1px solid #d9d9d9;
+  border-left: none;
+  border-right: none;
+  font-size: 16px;
+}
+
+#qb .tbody .tr .tr_e {
+  float: left;
+  color: #ea413c;
+  width: 120px;
+  text-align: center;
+  height: 141px;
+  line-height: 141px;
+}
+
+#qb .tbody .tr .tr_f {
+  float: left;
+  width: 95px;
+  height: 140px;
+  line-height: 140px;
+  color: #8c8c8c;
+  font-size: 14px;
+  text-align: center;
+  cursor: pointer;
+}
+
+#qb .all {
+  margin-top: 15px;
+  background: #ffffff;
+}
+
+#qb .all {
+  height: 58px;
+  line-height: 58px;
+  background-color: #ffff;
+}
+
+#qb .all .all_left {
+  float: left;
+  padding-left: 40px;
+}
+
+#qb .all .all_left span input {
+  margin-right: 10px;
+  display: inline-block;
+}
+
+#qb .all .all_left i {
+  display: inline-block;
+  width: 1px;
+  height: 24px;
+  background: #e6e6e6;
+  margin-left: 20px;
+  margin-right: 20px;
+  vertical-align: middle;
+}
+
+#qb .all .all_right {
+  float: right;
+}
+
+#qb .all .all_right span {
+  color: #ea413c;
+  font-weight: 600;
+}
+
+#qb .all .all_right a {
+  display: inline-block;
+  width: 142px;
+  background-color: #ea413c;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  font-size: 18px;
+  margin-left: 20px;
+}
+
+#qb .blank {
+  height: 100px;
+  width: 100%;
+}

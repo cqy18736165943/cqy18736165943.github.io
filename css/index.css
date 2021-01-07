@@ -106,6 +106,10 @@
 .inner2_left ul li a img{
     width: 280px;
     height: 370px;
+    transition: all 0.5s;
+}
+.inner2_left ul li:hover img{
+    transform: translate(0,-10px);
 }
 .inner2_left a img{
     width: 1180px;
@@ -167,7 +171,12 @@
 .inner4_left ul li a img{
     width: 280px;
     height: 370px;
+    transition: all 0.5s;
 }
+.inner4_left ul li:hover img{
+    transform: translate(0,-10px);
+}
+
 .inner4_left a img{
     width: 1180px;
     height: 160px;
@@ -203,6 +212,10 @@
 .inner5_left ul li a img{
     width: 288px;
     height: 277px;
+    transition: all 0.5s;
+}
+.inner5_left ul li:hover img{
+    transform: translate(0,-10px);
 }
 .inner5_left ul .main_li2{
     margin-right: -25px;
