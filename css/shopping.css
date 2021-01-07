@@ -140,6 +140,11 @@
     color: #f77168;
     padding-top: 10px;
 }
+.shop_right .car a{
+    padding: 11px 40px;
+    color: #ffffff;
+    background-color: #f77168;
+}
 .shop_right .buy{
     width: 190px;
     height: 40px;

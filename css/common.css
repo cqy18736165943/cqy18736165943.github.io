@@ -154,22 +154,33 @@ img{
     width: 100%;
     height: 250px;
     display: none;
+    z-index: 999;
 }
 .translate ul{
     width: 1180px;
     height: 250px;
+    z-index: 999;
     margin: 0 auto;
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    display: inline;
+    float: left;
+
 }
 .translate ul li{
     float: left;
     width: 196px;
     height: 250px;
+    z-index: 999;
     text-align: center;
 }
 .translate ul li a img{
     width: 200px;
+    z-index: 999;
     height: 180px;
 }
 .translate ul li span{
+    z-index: 999;
     color: #fc4a4a;
 }

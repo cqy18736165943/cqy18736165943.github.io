@@ -6,8 +6,6 @@
     <title>购物车-搜狗商城</title>
     <link rel="stylesheet" href="../css/common.css">
     <link rel="stylesheet" href="../sass/car.min.css">
-    <script src="../js/jquery-1.8.3.min.js"></script>
-    <!-- <script src="../js/car.js"></script> -->
 </head>
 <body>
     <div id="header">
@@ -237,7 +235,6 @@
         <div class="wp centre">
             <div class="wp_top clear">
                 <div class="check">
-                    <input type="checkbox">
                     <span>全选</span>
                 </div>
                 <div class="product">
@@ -259,13 +256,13 @@
             <div class="tbody">
                 <div class="tr clear">
                     <div class="tr_a">
-                        <input type="checkbox">
+                        <input type="checkbox" class="checkOne">
                     </div>
                     <div class="tr_b">
                         <a href="#" class="ig"><img src="../images/main.jpg" alt=""></a>
                         <a href="#" class="wz">搜狗AI录音笔E2 终身免费转写 8麦阵列超强拾音方言转写前100名购买用户送价值199元进口凌美钢笔 晒单送50元购物卡 8麦阵列全方位超强拾音 录音转写准确率98% 800万像素 63种语言翻译超越翻译机</a>
                     </div>
-                    <div class="tr_c">1998.00元</div>
+                    <div class="tr_c">￥1998</div>
                     <div class="tr_d">
                         <div class="add">
                             <button class="but">一</button>
@@ -273,19 +270,19 @@
                             <button class="btn">+</button>
                         </div>
                     </div>
-                    <div class="tr_e">1998.00元</div>
+                    <div class="tr_e">￥1998</div>
                     <div class="tr_f">删除
                     </div>
                 </div>
+                
                 <p></p>
                 
             </div>
     
         </div> 
-    
         <div class="all clear centre">
             <div class="all_left">
-                <span><input type="checkbox">全选</span>
+                <span><input type="checkbox" class="checkAll">全选</span>
                 <i></i>
                 <u>共 1 件商品，已选择 1 件</u>
             </div>
@@ -295,11 +292,13 @@
                 <a href="#">去结算</a>
             </div>
         </div>
-        <div class="hint centre">
+        <!-- <div class="hint centre">
             购物车空空如也
-        </div>
+        </div> -->
         <div class="blank"></div>
     </main>
 
+    <script src="../js/jquery-1.8.3.min.js"></script>
+    <script src="../js/car.js"></script>
 </body>
 </html>
